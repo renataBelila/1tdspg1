@@ -24,6 +24,7 @@ function Home() {
             <div className={styles.productInfo}>
               <h3>{destaque.nome}</h3>
               <p>{destaque.descricaoCurta}</p>
+              <p> <span className={styles.autorstyle}>Autor:</span> {destaque.autor}</p>
               <p className={styles.productPrice}>{destaque.preco}</p>
               <Link to={`/aparelhos/${destaque.id}`} className={styles.detailsButton}>
                 Ver Detalhes

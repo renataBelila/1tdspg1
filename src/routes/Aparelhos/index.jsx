@@ -5,7 +5,7 @@ import aparelhosData from '../../data/aparelhosData.jsx';
 
 function Aparelhos() {
   
-  const [aparelhos, setAparelhos] = useState(aparelhosData);
+  const [aparelhos] = useState(aparelhosData);
 
   return (
     <div className={styles.container}>
