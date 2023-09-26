@@ -14,17 +14,6 @@ function Home() {
 
   return (
     <div className={styles.container}>
-      <div className={styles.promotionCardContainer}>
-        <div className={styles.promotionCard}>
-          <h3>Oferta Especial</h3>
-          <p>Economize $100 em qualquer smartphone com o código "GARATO100".</p>
-        </div>
-        <div className={styles.promotionCard}>
-          <h3>Smartphones em Destaque</h3>
-          <p>Explore nossa seleção de smartphones de última geração.</p>
-        </div>
-      </div>
-
       <div className={styles.featuredProducts}>
         <h2>Smartphones em Destaque</h2>
         <Link to="/aparelhos" className={styles.viewAllLink}>
