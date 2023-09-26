@@ -88,6 +88,14 @@ function EditarAparelho() {
                 value={editedAparelho.autor}
                 onChange={(e) => handleFieldChange('autor', e.target.value)}
             />
+
+            <label htmlFor="paginas">Páginas:</label>
+            <input 
+                type="text" 
+                id="paginas"
+                value={editedAparelho.paginas}
+                onChange={(e) => handleFieldChange('paginas', e.target.value)}
+            />
             <button onClick={handleSave} className={styles.saveButton}>Salvar</button>
         </div>
     );
