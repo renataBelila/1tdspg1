@@ -23,7 +23,6 @@ export const aparelhosData = [
     descricaoCurta: 'O Google Pixel 6 é conhecido por sua câmera de 50MP e desempenho rápido. Possui uma tela OLED de 6.4 polegadas e 128GB de armazenamento.',
     descricaoExtensa: 'O Google Pixel 6 é um smartphone que se destaca pela sua câmera de 50MP, capaz de capturar fotos incrivelmente detalhadas. Sua tela OLED de 6.4 polegadas oferece cores vívidas e pretos profundos. Com 128GB de armazenamento, você terá espaço de sobra para suas fotos, vídeos e aplicativos favoritos. Além disso, o desempenho rápido deste smartphone permite que você execute qualquer tarefa com facilidade. O Google Pixel 6 oferece uma experiência Android pura e é uma excelente escolha para entusiastas de fotografia.',
     preco: 'R$799,99',
- 
   },
   {
     id: 4,
@@ -42,13 +41,13 @@ export const aparelhosData = [
 
   }
 ];
- 
+
 export const getAparelhos = () => {
   return aparelhosData;
 };
 
 export const addAparelho = (aparelho) => {
-  aparelho.id = aparelhosData.length + 1;
+  aparelho.id = (aparelhosData[aparelhosData.length - 1].id+1);
   aparelhosData.push(aparelho);
 };
 
