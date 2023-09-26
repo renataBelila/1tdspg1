@@ -27,6 +27,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.autorstyle {
+    position: relative;
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
 /* Estilos para os botões */
 .deleteButton {
     background-color: #9b444d; 

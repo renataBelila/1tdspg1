@@ -74,6 +74,7 @@ function InserirAparelho() {
                 id = "autor"
                 value={novoAparelho.autor}
                 onChange={(e) => handleFieldChange('autor', e.target.value)}
+                
             />
             <button onClick={handleInsert} className={styles.insertButton}>Inserir</button>
 
