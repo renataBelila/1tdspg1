@@ -26,12 +26,7 @@
   /* Cor de fundo dos produtos */
 }
 
-.productImage {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  margin-right: 20px;
-}
+
 
 .productInfo {
   flex: 1;
@@ -53,7 +48,12 @@
 .productPrice {
   font-size: 18px;
   font-weight: 600;
-  color: #333;
+  color: #322f2f;
+}
+
+.product .autorstyle {
+  color: #000000;
+  font-size: 15px;
 }
 
 .detailsButton {

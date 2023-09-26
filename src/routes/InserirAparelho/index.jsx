@@ -67,7 +67,16 @@ function InserirAparelho() {
                 value={novoAparelho.preco}
                 onChange={(e) => handleFieldChange('preco', e.target.value)}
             />
+
+            <label htmlFor="autor"> Autor:</label>
+            <input 
+                type="text" 
+                id = "autor"
+                value={novoAparelho.autor}
+                onChange={(e) => handleFieldChange('autor', e.target.value)}
+            />
             <button onClick={handleInsert} className={styles.insertButton}>Inserir</button>
+
         </div>
     );
 

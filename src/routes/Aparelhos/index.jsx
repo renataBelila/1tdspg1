@@ -16,6 +16,7 @@ function Aparelhos() {
             <div className={styles.productInfo}>
               <h3>{aparelho.nome}</h3>
               <p>{aparelho.descricaoCurta}</p>
+              <p> <span className={styles.autorstyle}>Autor:</span> {aparelho.autor}</p>
               <p className={styles.productPrice}>{aparelho.preco}</p>
               <Link to={`/aparelhos/${aparelho.id}`} className={styles.detailsButton}>
                 Ver Detalhes
