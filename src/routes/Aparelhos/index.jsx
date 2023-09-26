@@ -13,11 +13,6 @@ function Aparelhos() {
         <h2>Smartphones Disponíveis</h2>
         {aparelhos.map((aparelho) => (
           <div key={aparelho.id} className={styles.product}>
-            <img
-              src={aparelho.imagem}
-              alt={aparelho.nome}
-              className={styles.productImage}
-            />
             <div className={styles.productInfo}>
               <h3>{aparelho.nome}</h3>
               <p>{aparelho.descricaoCurta}</p>

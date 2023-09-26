@@ -21,11 +21,6 @@ function Home() {
         </Link>
         {destaques.map((destaque) => (
           <div key={destaque.id} className={styles.product}>
-            <img
-              src={destaque.imagem}
-              alt={destaque.nome}
-              className={styles.productImage}
-            />
             <div className={styles.productInfo}>
               <h3>{destaque.nome}</h3>
               <p>{destaque.descricaoCurta}</p>

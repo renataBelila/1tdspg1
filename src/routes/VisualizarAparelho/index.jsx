@@ -29,7 +29,6 @@ function VisualizarAparelho() {
   return (
     <div className={styles.container}>
       <h2>Detalhes de {aparelho.nome}</h2>
-      <img src={aparelho.imagem} alt={aparelho.nome} className={styles.smartphoneImage} />
       <p className={styles.descricaoExtensa}>{aparelho.descricaoExtensa}</p>
       <p className={styles.preco}>Preço: R$ {aparelho.preco}</p>
       <button onClick={handleDelete} className={styles.deleteButton}>

@@ -17,23 +17,6 @@ function InserirAparelho() {
         imagem: '',
     });
 
-    // Função para lidar com o upload de imagem
-    const handleImageUpload = (files) => {
-        if (files.length > 0) {
-            const file = files[0];
-            const reader = new FileReader();
-
-            reader.onload = (e) => {
-                // Quando o upload é bem sucedido, atualiza o estado do arquivo de imagem
-                setNovoAparelho({
-                    ...novoAparelho,
-                    imagem: e.target.result,
-                });
-            };
-
-            reader.readAsDataURL(file);
-        }
-    };
 
     // Função para lidar com as alterações nos campos de inserção
     const handleFieldChange = (field, value) => {
@@ -56,16 +39,7 @@ function InserirAparelho() {
     return (
         <div className={styles.container}>
             <h2>Inserir Novo Aparelho</h2>
-            <label htmlFor="imagem">Upload de Imagem:</label>
-            <input
-                type="file"
-                id="imagem"
-                accept="image/*"
-                onChange={(e) => handleImageUpload(e.target.files)}
-            />
-            {novoAparelho.imagem && (
-                <img src={novoAparelho.imagem} alt={novoAparelho.nome} className={styles.smartphoneImage} />
-            )}
+
             <label htmlFor="nome">Nome:</label>
             <input
                 type="text"
