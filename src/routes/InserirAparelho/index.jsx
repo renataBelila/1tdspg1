@@ -5,7 +5,7 @@ import styles from './index.module.css';
 
 function InserirAparelho() {
 
-    const { id } = useParams();
+
     const navigate = useNavigate();
 
     // Estado para acompanhar os dados do novo aparelho

@@ -20,20 +20,7 @@ function EditarAparelho() {
         aparelhosData[index] = aparelho;
     };
 
-    // Função para lidar com o upload de imagem
-    const handleImageUpload = (files) => {
-        if (files.length > 0) {
-            const file = files[0];
-            const reader = new FileReader();
 
-            reader.onload = (e) => {
-                // Quando o upload é bem-sucedido, atualize o estado do arquivo de imagem
-                setImageFile(e.target.result);
-            };
-
-            reader.readAsDataURL(file);
-        }
-    };
 
     // Função para lidar com as alterações nos campos de edição
     const handleFieldChange = (field, value) => {
@@ -65,18 +52,6 @@ function EditarAparelho() {
     return (
         <div className={styles.container}>
             <h2>Editar {aparelho.nome}</h2>
-            <label htmlFor="imagem">Upload de Imagem:</label>
-            <input
-                type="file"
-                id="imagem"
-                accept="image/*"
-                onChange={(e) => handleImageUpload(e.target.files)}
-            />
-            {imageFile ? (
-                <img src={imageFile} alt={editedAparelho.nome} className={styles.smartphoneImage} />
-            ) : (
-                <img src={editedAparelho.imagem} alt={editedAparelho.nome} className={styles.smartphoneImage} />
-            )}
             <label htmlFor="nome">Nome:</label>
             <input
                 type="text"

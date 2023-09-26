@@ -17,7 +17,7 @@ function Home() {
       <div className={styles.featuredProducts}>
         <h2>Smartphones em Destaque</h2>
         <Link to="/aparelhos" className={styles.viewAllLink}>
-          Ver Todos os Smartphones
+          Ver Todos os Livros
         </Link>
         {destaques.map((destaque) => (
           <div key={destaque.id} className={styles.product}>
