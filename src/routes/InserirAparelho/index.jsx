@@ -14,7 +14,6 @@ function InserirAparelho() {
         descricaoCurta: '',
         descricaoExtensa: '',
         preco: '',
-        imagem: '',
     });
 
 
@@ -38,7 +37,7 @@ function InserirAparelho() {
 
     return (
         <div className={styles.container}>
-            <h2>Inserir Novo Aparelho</h2>
+            <h2>Inserir Novo Livro</h2>
 
             <label htmlFor="nome">Nome:</label>
             <input

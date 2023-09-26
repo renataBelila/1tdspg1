@@ -4,7 +4,8 @@ import styles from './CSS/Footer.module.css';
 function Footer() {
   return (
     <footer className={styles.footer}>
-      <p>&copy; 2023 Loja de Smartphones e Tablets</p>
+      <p>&copy; Zé livraria</p>
+      <p>Encontre os mais variados livros com o zé</p>
     </footer>
   );
 }

@@ -45,7 +45,7 @@ function EditarAparelho() {
     };
 
     if (!aparelho) {
-        return <p>Aparelho não encontrado.</p>;
+        return <p>Livro não encontrado.</p>;
     }
 
 

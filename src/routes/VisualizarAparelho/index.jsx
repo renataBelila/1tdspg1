@@ -23,7 +23,7 @@ function VisualizarAparelho() {
   };
 
   if (!aparelho) {
-    return <p>Aparelho não encontrado.</p>;
+    return <p>Livro não encontrado.</p>;
   }
 
   return (
@@ -32,13 +32,13 @@ function VisualizarAparelho() {
       <p className={styles.descricaoExtensa}>{aparelho.descricaoExtensa}</p>
       <p className={styles.preco}>Preço: R$ {aparelho.preco}</p>
       <button onClick={handleDelete} className={styles.deleteButton}>
-        Excluir Aparelho
+        Excluir Livro
       </button>
       <button onClick={() => navigate(`/aparelhos/${id}/editar`)} className={styles.editButton}>
-        Editar Aparelho
+        Editar Livro
       </button>
       <button onClick={() => navigate('/aparelhos')} className={styles.goBackLink}>
-        Voltar para Lista de Aparelhos
+        Voltar para Livraria
       </button>
     </div>
   );

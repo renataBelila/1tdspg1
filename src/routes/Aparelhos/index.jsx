@@ -10,7 +10,7 @@ function Aparelhos() {
   return (
     <div className={styles.container}>
       <div className={styles.listProducts}>
-        <h2>Smartphones Disponíveis</h2>
+        <h2>Livros Disponíveis</h2>
         {aparelhos.map((aparelho) => (
           <div key={aparelho.id} className={styles.product}>
             <div className={styles.productInfo}>
