@@ -27,17 +27,17 @@ export const aparelhosData = [
   {
     id: 4,
     nome: 'Six of crows: Sangue e mentiras',
-    descricaoCurta: 'O OnePlus 9T oferece um excelente desempenho com uma tela Fluid AMOLED de 6.55 polegadas, câmera de 48MP e 256GB de armazenamento.',
-    descricaoExtensa: 'O OnePlus 9T é um smartphone projetado para oferecer um desempenho excepcional. Sua tela Fluid AMOLED de 6.55 polegadas oferece uma experiência visual imersiva, enquanto a câmera de 48MP captura fotos de alta qualidade. Com 256GB de armazenamento, você terá espaço suficiente para todos os seus arquivos. Este smartphone é alimentado por um processador poderoso, garantindo que você possa executar aplicativos e jogos exigentes sem problemas. Se você busca desempenho e qualidade, o OnePlus 9T é uma escolha sólida.',
-    preco: 'R$699,99',
+    descricaoCurta: 'Six of Crows: Sangue e Mentiras é o primeiro livro da duologia "Six of Crows" escrita por Leigh Bardugo. A trama segue um grupo de criminosos enquanto eles planejam um roubo perigoso em uma cidade corrupta e perigosa.',
+    descricaoExtensa: 'A OESTE DE RAVKA, ONDE GRISHAS SÃO ESCRAVIZADOS E ENVOLVIDOS EM JOGOS DE CONTRABANDISTAS E MERCADORES......fica Ketterdam, capital de Kerch, um lugar agitado onde tudo pode ser conseguido pelo preço certo. Nas ruas e nos becos que fervilham de traições, mercadorias ilegais e assuntos escusos entre gangues, ninguém é melhor negociador que Kaz Brekker, a trapaça em pessoa e o dono do Clube do Corvo.Por isso, Kaz é contratado para liderar um assalto improvável e evitar que uma terrível droga caia em mãos erradas, o que poderia instaurar um caos devastador. Apenas dois desfechos são possíveis para esse roubo: uma morte dolorosa ou uma fortuna muito maior que todos os seus sonhos de riqueza.Apostando a própria vida, o dono do Clube do Corvo monta a sua equipe de elite para a missão: a espiã conhecida como Espectro; um fugitivo perito em explosivos e com um misterioso passado de privilégios; um atirador viciado em jogos de azar; uma grisha sangradora que está muito longe de casa; e um prisioneiro que quer se vingar do amor de sua vida.O destino do mundo está nas mãos de seis foras da lei – isso se eles sobreviverem uns aos outros.',
+    preco: 'R$32,90',
 
   },
   {
     id: 5,
-    nome: 'Xiaomi Mi 11 Lite',
-    descricaoCurta: 'O Xiaomi Mi 11 Lite é um smartphone acessível com uma tela AMOLED de 6.55 polegadas, câmera de 64MP e 64GB de armazenamento.',
-    descricaoExtensa: 'O Xiaomi Mi 11 Lite oferece um excelente custo-benefício com uma tela AMOLED de 6.55 polegadas que exibe cores vivas e detalhes nítidos. Sua câmera de 64MP permite que você capture fotos de alta resolução, e o armazenamento de 64GB oferece espaço suficiente para suas necessidades diárias. Este smartphone oferece um desempenho sólido para tarefas do dia a dia. Se você procura um smartphone acessível com recursos de qualidade, o Xiaomi Mi 11 Lite é uma excelente escolha.',
-    preco: 'R$499,99',
+    nome: 'Tress, a garota do Mar Esmeralda',
+    descricaoCurta: 'Primeiro, é o seguinte: você precisa compreender que essa é uma história sobre pessoas que são tanto o que parecem ser quanto o que não parecem ser. Simultaneamente. Uma história de contradições. Em outras palavras, é uma história sobre seres humanos.',
+    descricaoExtensa: 'Em Tress, a garota do Mar Esmeralda, Brandon Sanderson, autor best-seller nº 1 do New York Times, expande o universo Cosmere de O caminho dos reis com uma nova história singular, que é, também, uma excelente introdução à sua magnífica obra. A única vida que Tress conhecia na ilha onde nasceu, em meio a um oceano verde esmeralda, era simples, com prazeres mundanos como colecionar copos trazidos por marinheiros de terras distantes e ouvir as histórias contadas por seu amigo Charlie. Porém, quando o pai de Charlie o leva em uma viagem para encontrar uma noiva e um desastre acontece, Tress precisa se esconder em um navio e procurar a Feiticeira do mortal Mar da Meia-Noite. Sobre as águas sombrias, repletas de esporos e piratas, será que Tress vai conseguir deixar sua vida simples para trás e conquistar seu espaço num oceano em que uma única gota pode significar a própria morte?',
+    preco: 'R$95,16',
 
   }
 ];
