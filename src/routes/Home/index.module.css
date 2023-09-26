@@ -110,11 +110,16 @@
 }
 
 .viewAllLink {
-  color: #007bff;
-  /* Cor do link "Ver Todos os Smartphones" */
+  position: relative;
+  background-color: #8a1fdd;
+  padding: 10px;
+  width: 15rem;
+  bottom: 1rem;
+  color: #fff;
   text-decoration: none;
   margin-top: 10px;
   display: block;
+  border-radius: 20px;
 }
 
 .viewAllLink:hover {
