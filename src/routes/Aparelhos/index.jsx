@@ -18,9 +18,15 @@ function Aparelhos() {
               <p>{aparelho.descricaoCurta}</p>
               <p> <span className={styles.autorstyle}>Autor:</span> {aparelho.autor}</p>
               <p className={styles.productPrice}>{aparelho.preco}</p>
-              <Link to={`/aparelhos/${aparelho.id}`} className={styles.detailsButton}>
-                Ver Detalhes
-              </Link>
+              <div className={styles.spacebutton}>
+                <Link to={`/aparelhos/${aparelho.id}`} className={styles.detailsButton}>
+                  Ver Detalhes
+                </Link>
+                <Link to="#" className={styles.detailsButton}>
+                  Comprar Agora
+                </Link>
+              </div>
+              
             </div>
           </div>
         ))}

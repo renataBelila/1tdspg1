@@ -82,3 +82,8 @@
 .viewAllLink:hover {
   text-decoration: underline;
 }
+
+.spacebutton{
+  display: flex;
+  gap: 2rem;
+}
