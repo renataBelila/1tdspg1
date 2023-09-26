@@ -30,8 +30,9 @@ function VisualizarAparelho() {
     <div className={styles.container}>
       <h2>Detalhes de {aparelho.nome}</h2>
       <p className={styles.descricaoExtensa}>{aparelho.descricaoExtensa}</p>
+      <p> <span className={styles.autorstyle}>Páginas:</span> {aparelho.paginas}</p>
       <p> <span className={styles.autorstyle}>Autor:</span> {aparelho.autor}</p>
-      <p className={styles.preco}>Preço: R$ {aparelho.preco}</p>
+      <p><span className={styles.preco}>Preço:</span> R$ {aparelho.preco}</p>
       <button onClick={handleDelete} className={styles.deleteButton}>
         Excluir Livro
       </button>
