@@ -7,12 +7,11 @@ function Error() {
     <div className={styles.container}>
       <h2 className={styles.heading}>Erro 404 - Página não encontrada</h2>
       <p className={styles.message}>
-        Parece que você se perdeu no universo digital. Que tal voltar para a
-        segurança da <Link to="/" className={styles.link}>página inicial</Link>?
+        Você viajou tanto pelo universo dos livros que acabou encontrando o zoro perdido, vamos voltar para nossa livraria e esquecer que viu esse lugar.... <Link to="/" className={styles.link}>página inicial</Link>
       </p>
       <div className={styles.gifContainer}>
         <img
-          src="https://media.giphy.com/media/QAxqYgH6b0vvD0Jm6e/giphy.gif" // Substitua com o link do seu GIF animado
+          src="https://uploads.spiritfanfiction.com/historias/capas/202105/zoro-perdido-22307526-160520211642.jpg" 
           alt="Erro 404"
           className={styles.gif}
         />
