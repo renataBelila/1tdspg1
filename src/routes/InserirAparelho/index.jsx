@@ -14,10 +14,12 @@ function InserirAparelho() {
         descricaoCurta: '',
         descricaoExtensa: '',
         preco: '',
+        autor:'',
+        paginas: '',
     });
 
 
-    // Função para lidar com as alterações nos campos de inserção
+    // Função que pega os valores em tempo real
     const handleFieldChange = (field, value) => {
         setNovoAparelho({
             ...novoAparelho,

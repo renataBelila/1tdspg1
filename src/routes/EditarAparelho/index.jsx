@@ -12,7 +12,7 @@ function EditarAparelho() {
 
     // Estado para acompanhar as edições
     const [editedAparelho, setEditedAparelho] = useState(aparelho);
-    const [imageFile, setImageFile] = useState(null);
+
 
     // Atualizar o aparelho com as edições
     const updateAparelho = (aparelho) => {
