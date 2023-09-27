@@ -33,10 +33,6 @@ function EditarAparelho() {
     // Função para salvar as edições
     const handleSave = () => {
         if (editedAparelho) {
-            if (imageFile) {
-                editedAparelho.imagem = imageFile;
-            }
-
             updateAparelho(editedAparelho);
             printAparelho();
             navigate(`/aparelhos/${id}`);
