@@ -34,12 +34,11 @@ function EditarAparelho() {
     const handleSave = () => {
         if (editedAparelho) {
             if (imageFile) {
-                // Se houver uma nova imagem, atualize a propriedade 'imagem' do aparelho
                 editedAparelho.imagem = imageFile;
             }
 
-            // Realize a lógica de atualização aqui
             updateAparelho(editedAparelho);
+            printAparelho();
             navigate(`/aparelhos/${id}`);
         }
     };

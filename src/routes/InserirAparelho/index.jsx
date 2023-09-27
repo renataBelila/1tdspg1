@@ -30,7 +30,7 @@ function InserirAparelho() {
         if (novoAparelho) {
             //Salvar no novo aparelho
             addAparelho(novoAparelho);
-            // Navega de volta para a página de aparelhos
+            printAparelho();
             navigate('/aparelhos');
         }
     };

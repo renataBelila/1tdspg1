@@ -17,7 +17,7 @@ function VisualizarAparelho() {
       aparelho.id);
     if (index !== -1) {
       aparelhosData.splice(index, 1);
-      // Navega de volta para a página de aparelhos
+      printAparelho();
       navigate('/aparelhos');
     }
   };
