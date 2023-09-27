@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import aparelhosData from '../../data/aparelhosData.jsx';
+import aparelhosData, { printAparelho }from '../../data/aparelhosData.jsx';
 import styles from './index.module.css';
 
 function VisualizarAparelho() {

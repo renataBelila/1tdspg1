@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import aparelhosData from "../../data/aparelhosData";
+import aparelhosData, { printAparelho } from "../../data/aparelhosData";
 import styles from './index.module.css';
 
 function EditarAparelho() {

@@ -73,4 +73,11 @@ export const deleteAparelho = (id) => {
   !== id);
 };
 
+
+export function printAparelho () {
+  console.clear();
+  console.log('lista de aparelhos');
+  console.table(aparelhosData);
+}
+
 export default aparelhosData;

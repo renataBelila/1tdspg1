@@ -1,16 +1,18 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import styles from './index.module.css';
-import aparelhosData from '../../data/aparelhosData.jsx';
+import aparelhosData, { printAparelho } from '../../data/aparelhosData.jsx';
 
 function Home() {
-  // IDs dos smartphones que serão destacados
   const destaquesIds = [2, 5];
 
-  // Filtrar os smartphones com base nos IDs de destaque
   const destaques = aparelhosData.filter((smartphone) =>
     destaquesIds.includes(smartphone.id)
+  
   );
+  useEffect (()=> {
+    printAparelho();
+  },[]);
 
   return (
     <div className={styles.container}>
@@ -26,7 +28,6 @@ function Home() {
               <p>{destaque.descricaoCurta}</p>
               <p> <span className={styles.autors}>Autor:</span> {destaque.autor}</p>
               <p className={styles.productPrice}>{destaque.preco}</p>
-
               <div className={styles.spacebutton}>
               <Link to={`/aparelhos/${destaque.id}`} className={styles.detailsButton}>
                 Ver Detalhes

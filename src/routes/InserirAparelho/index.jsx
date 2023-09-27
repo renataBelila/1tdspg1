@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { addAparelho } from '../../data/aparelhosData.jsx';
+import { addAparelho ,  printAparelho } from '../../data/aparelhosData.jsx';
 import styles from './index.module.css';
 
 function InserirAparelho() {
